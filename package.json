@@ -1,13 +1,12 @@
 {
   "name": "rsc-ui-components",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Shared UI components for RSC",
   "main": "index.js",
   "scripts": {
     "test": "jest --no-cache --runInBand",
     "storybook": "start-storybook -p 6006",
     "build": "tsc",
-    "publish": "tsc && npm publish",
     "build-storybook": "build-storybook"
   },
   "repository": {
